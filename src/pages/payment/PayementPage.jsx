@@ -321,20 +321,10 @@ const PaymentPage = () => {
   const [selectedAddress, setSelectedAddress] = useState("");
 
   // Dummy user data for login
-  const users = [
-    { playerId: "1077205363", password: "eiuRtkj@#$9" },
-    { playerId: "1077209363", password: "dSeasdf@@1!" },
-    { playerId: "1077309363", password: "AGTX3363@!!" },
-    { playerId: "1077309563", password: "TRAFASDF#@$" },
-    { playerId: "1095517359", password: "TRAteSDF#@$" },     
-    { playerId: "1111122009", password: "YUatK*DF#@%"},
-    { playerId: "1112251041", password: "WER82?@$$"},
-    { playerId: "2962222", password: "WER&%&7$$"},
+  const users = [   
     { playerId: "1112291899", password: "VTR71&7$$"},
+    { playerId: "1113200151", password: "YUW71&7$$"},
 
-
-
-    
    { playerId: "agent1", password: "pass1" },
 
   ];
