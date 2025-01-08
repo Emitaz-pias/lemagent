@@ -11,7 +11,6 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo.png'
 import newLogo from '../../images/newLogo.png'
 import ReactFlagsSelect from 'react-flags-select';
 import './Navbar.css'
@@ -167,11 +166,20 @@ const scrollToViewAndCloseMenu = (scrollToFunction, onCloseFunction) => {
         <AppBar >
           <Toolbar sx={{display:'flex',alignItems:'center',textAlign:'center',justifyContent:'space-around'}}>
             {/* menuBtn */}
-            <IconButton size="large" edge="center" aria-label="open drawer" aria-controls={mobileMenuId} onClick={handleMobileMenuOpen} 
+            <IconButton size='small' textAlign='center' aria-label="open drawer" aria-controls={mobileMenuId} onClick={handleMobileMenuOpen} 
             sx={{display: {
+                    sm:'block',
+                    xs:'block',
                     lg: 'none',
                     md:'none',
-                    xs:'block'}, order:{xs:3},color:'white !important'}}                    
+                    },
+                    order:{xs:3,sm:3},                   
+                    height:'0.2em',
+                    width:'0.2em',
+                    color:'#FEBD02',
+                    marginTop:'-1em'
+                 
+                  }}                    
             >
               <MenuIcon/>
             </IconButton>

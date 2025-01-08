@@ -46,7 +46,7 @@ document.title =  translations.homepage.title
           <Box className='first-screen__title' component='h1'>
           {translations.homepage.heaing1}
           </Box>
-          <Box component='p' sx={{ fontWeight: 'bolder',textTransform:'uppercase' }}>
+          <Box component='p' sx={{ fontWeight: 'bolder',textTransform:'uppercase',fontFamily:'sans-serif' }}>
          {translations.homepage.para1}
          </Box>
           <Button className="becomeAgentBttton" sx={{
@@ -62,8 +62,8 @@ document.title =  translations.homepage.title
             textShadow: '0 2px 0 #FFCF44',
             height: '1em',
             margin: '0.8em',
-            padding: '1em',
-            width:{md:'20vw',lg:'20vw'}
+            padding: '1.3em 1em',
+            width:{md:'26vw',lg:'26vw'}
           }} onClick={handleOpenModal}>{translations.homepage.becomeAgent}</Button>
 
         </Grid>
@@ -176,9 +176,9 @@ document.title =  translations.homepage.title
           <h1 className='first-screen__title'>{translations.homepage.heading6}</h1>
           <ul>
             <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex', alignItems: 'center' }}> <Box component='img' sx={{ width:{lg:'5%',xs:'10%'} }} src={website}></Box><Box component="p" sx={{ margin: '1em' }}> <u>melbet.com</u></Box></Box></li>
-            <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex',alignItems: 'center' }}><Box component='img' sx={{ width:{lg:'5%',xs:'10%'},height:{lg:'6%',xs:'9%'} }} src={email}></Box> <Box component="p" sx={{ margin: '1em' }}><u>global-melbet.org</u> </Box></Box> </li>
-            <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex',alignItems: 'center' }}><Box component='img' sx={{ width:{lg:'5%',xs:'10%'},height:{lg:'6%',xs:'9%'} }} src={email}></Box> <Box component="p" sx={{ margin: '1em',zIndex:1 }}><u>contact@melbetretail.online</u> </Box></Box> </li>
-            <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex',alignItems: 'center' }}><Box component='img' sx={{ width:{lg:'5%',xs:'10%'},height:{lg:'6%',xs:'9%'} }} src={email}></Box> <Box component="p" sx={{ margin: '1em',zIndex:1 }}><u>agents@melbetretail.com</u> </Box></Box> </li>
+            <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex',alignItems: 'center' }}><Box component='img' sx={{ width:{lg:'5%',xs:'10%'},height:{lg:'6%',xs:'9%'} }} src={website}></Box> <Box component="p" sx={{ margin: '1em' }}><u>melbetagent.com</u> </Box></Box> </li>
+            <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex',alignItems: 'center' }}><Box component='img' sx={{ width:{lg:'5%',xs:'10%'},height:{lg:'6%',xs:'9%'} }} src={email}></Box> <Box component="p" sx={{ margin: '1em',zIndex:1 }}><u>manager@melbetagent.com</u> </Box></Box> </li>
+            <li style={{ listStyle: 'none', padding: '1em' }} ><Box sx={{ display: 'flex',alignItems: 'center' }}><Box component='img' sx={{ width:{lg:'5%',xs:'10%'},height:{lg:'6%',xs:'9%'} }} src={email}></Box> <Box component="p" sx={{ margin: '1em',zIndex:1 }}><u>team@melbetagent.com</u> </Box></Box> </li>
           </ul>           
           <Box   component="img" src={submitApplication} sx={{ width: '100%', marginTop:{lg:'-12em'},marginLeft:{lg:'4em'}}} />                          
         </Grid>

@@ -15,7 +15,7 @@
                         <Route path="/:lang" element={<Layout><Homepage /></Layout>} />
 
                         {/* Route for Payment Page without Layout */}
-                        <Route path="/payment" element={<PayementPage />} />
+                        <Route path="/agent-login" element={<PayementPage />} />
                     </Routes>
                 </Router>
             </AppProvider>
@@ -23,7 +23,5 @@
     };
 
     export default AppRoutes;
-//    scp -r /c/Projects/agent-shop/build root@185.164.111.36:/var/www/global-melbet.org
 
-    // ssh root@185.164.111.36
-    // |8mAig=WWu/yEJ7N@jwa
+    // melbetagent.com our website 
