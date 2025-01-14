@@ -30,7 +30,7 @@ const Footer = () => {
             Contact Us
           </Typography>
           <Typography variant="body2" gutterBottom>
-            Email: <Link href="mailto:manager@melbetagent.com" color="inherit">manager@melbetagent.com</Link>
+            Email: <Link href="mailto:agents@melbetagent.com" color="inherit">agents@melbetagent.com</Link>
           </Typography>
          
         </Grid>
