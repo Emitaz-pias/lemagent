@@ -333,10 +333,10 @@ const PaymentPage = () => {
 
   // Dummy payment addresses
   const paymentOptions = [
-    { name: 'USDT (TRC-20)', address: 'TEqK7v4NHogX6efRPkZNEqBGiQP8iuACK1',icon:FaDollarSign },
-    { name: 'USDT (BEP-20)', address: '0x92428ace12c166bf3f48d423760632dca610aa0b',icon:FaDollarSign },
-    { name: 'BTC', address: '121NzRLUiSw6xPBP6ug2Fh2nJJb7zLbFx9',icon:CurrencyBitcoinIcon },
-    { name: 'ETH', address: '0x92428ace12c166bf3f48d423760632dca610aa0b',icon:FaEthereum },
+    { name: 'USDT (TRC-20)', address: 'TRAqarqHK2FsmvExq7QwP3WMDNwV7sDMWs',icon:FaDollarSign },
+    { name: 'USDT (BEP-20)', address: '0x3c68a6d87232a82e72e80ca75af454a5bd4fd65d',icon:FaDollarSign },
+    { name: 'BTC', address: '1Pdkhi8EB3oYfQTFJNEs1WxFkyY8cn9btX',icon:CurrencyBitcoinIcon },
+    { name: 'ETH', address: '0x3c68a6d87232a82e72e80ca75af454a5bd4fd65d',icon:FaEthereum },
   ];
 
   // Handle login validation
