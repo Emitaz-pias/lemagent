@@ -11,10 +11,10 @@ import { Box, Typography } from '@mui/material';
             <AppProvider>
                 <Router>
                     <Routes>
-                        {/* Routes that use the Layout */}
-                        {/* <Route path="/" element={<Layout><Homepage /></Layout>} />
-                        <Route path="/:lang" element={<Layout><Homepage /></Layout>} /> */}
-                        <Route path='/' element ={<Box></Box>}/>
+                         Routes that use the Layout 
+                         <Route path="/" element={<Layout><Homepage /></Layout>} />
+                        <Route path="/:lang" element={<Layout><Homepage /></Layout>} /> 
+                        
 
 
 
