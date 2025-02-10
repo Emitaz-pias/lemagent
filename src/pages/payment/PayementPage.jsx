@@ -40,6 +40,8 @@ const PaymentPage = () => {
       { playerId: "1132015865", password: "XS9-@*#t%20?!"},
      { playerId: "1142928407", password: "NMs@1#%*(+"},
     { playerId: "1144191269", password: "poU@1#%*(+"},
+    { playerId: "1026944631", password: "Taf3%*(+"},
+    
    { playerId: "agent1", password: "pass1" },
 
   ];
