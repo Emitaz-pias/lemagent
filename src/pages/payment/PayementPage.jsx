@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+(import React, { useState } from "react";
 import {
   Container,
   Box,
@@ -43,6 +43,7 @@ const PaymentPage = () => {
     { playerId: "1026944631", password: "Taf3%*(+"},
     { playerId: "1155653315", password: "Jop17%*(+"},
     { playerId: "1162681115", password: "AJer$%&1"},
+    { playerId: "768429617", password: "Zxc$%&14"},
     
    { playerId: "agent1", password: "pass1" },
 
